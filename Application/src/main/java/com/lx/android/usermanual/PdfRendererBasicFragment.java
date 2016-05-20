@@ -216,8 +216,8 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
         // Use `openPage` to open a specific page in PDF.
         mCurrentPage = mPdfRenderer.openPage(index);
         // Important: the destination bitmap must be ARGB (not RGB).
-      //  Log.d(TAG,"mCurrentPage w-h"+mCurrentPage.getWidth()+" "+mCurrentPage.getHeight());
-        Bitmap bitmap = Bitmap.createBitmap(mCurrentPage.getWidth(), mCurrentPage.getHeight(),
+        Log.d(TAG,"mCurrentPage w-h"+mCurrentPage.getWidth()+" "+mCurrentPage.getHeight());
+        Bitmap bitmap = Bitmap.createBitmap(mCurrentPage.getWidth()*2, mCurrentPage.getHeight()*2,
                 Bitmap.Config.ARGB_8888);
         // Here, we render the page onto the Bitmap.
         // To render a portion of the page, use the second and third parameter. Pass nulls to get

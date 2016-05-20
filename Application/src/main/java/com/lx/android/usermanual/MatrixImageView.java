@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
@@ -102,6 +103,21 @@ public class MatrixImageView extends ImageView {
         //    Log.d(TAG,"已测量");
             initData();
         }
+    }
+
+
+    /**
+     *  判断缩放级别是否是改变过
+     *  @return   true表示非初始值,false表示初始值
+     */
+    private boolean isZoomNotChanged() {
+        float[] values=new float[9];
+        getImageMatrix().getValues(values);
+        //获取当前X轴缩放级别
+        float scale=values[Matrix.MSCALE_X];
+        //获取模板的X轴缩放级别，两者做比较
+     //   Log.d(TAG,"isZoomNotChanged="+(scale==mScale));
+        return scale==mScale;
     }
 
     /**
@@ -255,7 +271,7 @@ public class MatrixImageView extends ImageView {
             //获取当前X轴缩放级别
             float scale=values[Matrix.MSCALE_X];
             //获取模板的X轴缩放级别，两者做比较
-        //    Log.d(TAG,"isZoomChanged="+(scale!=mScale));
+           // Log.d(TAG,"isZoomChanged="+(scale!=mScale));
             return scale!=mScale;
         }
 
@@ -483,7 +499,7 @@ public class MatrixImageView extends ImageView {
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
                                float velocityY) {
-         //   Log.d(TAG,"onFling");
+       //     Log.d(TAG,"onFling");
 
             // TODO 滑动事件监听
             float minMove = 120;         //最小滑动距离
@@ -507,11 +523,11 @@ public class MatrixImageView extends ImageView {
 
             if(beginX-endX>minMove&&Math.abs(velocityX)>minVelocity &&  horizontalFlag){
                 //左滑
-                if(flingListener!=null && mCurrentMatrix.equals(mDefalutMatrix)) flingListener.leftSlide();
+                if(flingListener!=null && isZoomNotChanged()) flingListener.leftSlide();
 
             }else if(endX-beginX>minMove&&Math.abs(velocityX)>minVelocity && horizontalFlag){
                 //右滑
-                if(flingListener!=null && mCurrentMatrix.equals(mDefalutMatrix)) flingListener.rightSlide();
+                if(flingListener!=null && isZoomNotChanged()) flingListener.rightSlide();
             }else if(beginY-endY>minMove&&Math.abs(velocityY)>minVelocity && !horizontalFlag){
                 //上滑
 
