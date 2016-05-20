@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="05f4eb0711f01f8550b4388cb3d56055b0fc227a">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a1a098acc042f4936f90116cafdf9c572cbb4f31\classes.dex" />
+    </item>
+    <item
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_185e00ed5a1d25ca86b6783161b35e225af01140\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_27d3300a191e7b881c146a486955cebe0986c303\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.3.0_b6ed46d78bac604bc3746aa708d3532cde6586aa\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-21.0.3_bacee8f71649303988476f142e547533863f0af5\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_0221eac60133bc535d6b7c501efdb46bbca78d5f\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_9e1294293a62433c46c10cc25b7b65115e60aa80\classes.dex" />
+    </item>
+    <item
+        jar="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1b96ead05151083bc016760f2228d798c28d03c4">
+        <dex dex="D:\workspace\UserManual-PdfRenderer\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4b901b732a05d909817f9b9332e2639588d8b844\classes.dex" />
+    </item>
+
+</items>

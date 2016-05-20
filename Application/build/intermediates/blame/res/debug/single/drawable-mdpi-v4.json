@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace\\UserManual-PdfRenderer\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace\\UserManual-PdfRenderer\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\UserManual-PdfRenderer\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_action_info.png",
+        "source": "D:\\workspace\\UserManual-PdfRenderer\\Application\\src\\main\\res\\drawable-mdpi\\ic_action_info.png"
+    }
+]

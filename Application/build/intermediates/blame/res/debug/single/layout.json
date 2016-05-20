@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace\\UserManual-PdfRenderer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_real.xml",
+        "source": "D:\\workspace\\UserManual-PdfRenderer\\Application\\src\\main\\res\\layout\\activity_main_real.xml"
+    },
+    {
+        "merged": "D:\\workspace\\UserManual-PdfRenderer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pdf_renderer_basic.xml",
+        "source": "D:\\workspace\\UserManual-PdfRenderer\\Application\\src\\main\\res\\layout\\fragment_pdf_renderer_basic.xml"
+    }
+]
